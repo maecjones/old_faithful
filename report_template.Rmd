@@ -60,14 +60,16 @@ library(Rmixmod)
 mod1 <- mixmodCluster(faithful, nbCluster=1, criterion="ICL")
 mod2 <- mixmodCluster(faithful, nbCluster=2, criterion="ICL")
 
+plot(mod1)
+plot(mod2)
+
 ```
 
 A summary of both models is shown below. 
 **TODO**: add summary of the 2-component GMM. 
 ```{r}
 summary(mod1)
-plot(mod1)
-plot(mod2)
+summary(mod2)
 ```
 
 **TODO**: Add a sentence giving the ICL of the 1-component GMM for comparison. 
