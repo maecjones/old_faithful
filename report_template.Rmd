@@ -91,5 +91,4 @@ A plot of the optimal clustering is shown below.
 
 **TODO**: Write a brief conclusion. 
 After comparing the models, the gaussian mdoel with 2 components was found to have the best performance. 
-
-
+Our hypothesis was proven correct. One limitation is we used the same data to generate hypothesis and test it. 
