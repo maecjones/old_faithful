@@ -3,6 +3,7 @@ title: "Old Faithful exploratory analysis"
 author: "Rob Arbon"
 date: "09/11/2020"
 output:
+  word_document: default
   html_document: default
 ---
 
@@ -54,3 +55,4 @@ plot(df$waiting, df$eruptions)
 ```
 
 This scatter plot clearly shows to separate distributions corresponding to the two different *types*
+
