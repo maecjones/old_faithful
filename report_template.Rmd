@@ -84,11 +84,12 @@ A plot of the optimal clustering is shown below.
 **TODO**: plot the best performing model. 
 
 ```{r}
-# plot()
+ plot(mod2)
 ```
 
 # Conclusion
 
 **TODO**: Write a brief conclusion. 
+After comparing the models, the gaussian mdoel with 2 components was found to have the best performance. 
 
 
